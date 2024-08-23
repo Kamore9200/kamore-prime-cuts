@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamore Prime Cuts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            position: relative;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+
+        .hero h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+
+        .featured-products {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .about {
+            padding: 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        footer {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kamore Prime Cuts</h1>
+        <nav>
+            <ul>
+                <li><a href="#beef">Beef</a></li>
+                <li><a href="#pork">Pork</a></li>
+                <li><a href="#chicken">Chicken</a></li>
+                <li><a href="#lamb">Lamb</a></li>
+                <li><a href="#specials">Specials</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="https://via.placeholder.com/1200x400?text=Fresh+Meat+Cuts" alt="Fresh Meat Cuts">
+        <h2>Quality Cuts Delivered to Your Doorstep</h2>
+    </section>
+
+    <section class="featured-products">
+        <h3>Featured Products</h3>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/300?text=Beef+Cut" alt="Beef Cut">
+                <h4>Premium Beef Cut</h4>
+                <p>$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300?text=Pork+Cut" alt="Pork Cut">
+                <h4>Top Quality Pork Cut</h4>
+                <p>$15.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300?text=Chicken+Cut" alt="Chicken Cut">
+                <h4>Organic Chicken Cut</h4>
+                <p>$12.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300?text=Lamb+Cut" alt="Lamb Cut">
+                <h4>Fresh Lamb Cut</h4>
+                <p>$22.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h3>About Us</h3>
+        <p>At Kamore Prime Cuts, we are committed to providing you with the highest quality meat sourced from local farms. Our passion for quality ensures that you only get the best cuts delivered straight to your home.</p>
+    </section>
+
+    <footer>
+        <h4>Contact Us</h4>
+        <p>Email: info@kamoreprimecuts.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>&copy; 2023 Kamore Prime Cuts</p>
+    </footer>
+</body>
+</html>
